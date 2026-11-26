@@ -1,0 +1,41 @@
+"""Configurações visuais e paleta de cores da apresentação."""
+
+from src.config.theme import (
+    ACCENT_COLOR,
+    BG_COLOR,
+    BLUE_CH,
+    BODY_SIZE,
+    CARD_BG,
+    DANGER_COLOR,
+    GREEN_CH,
+    HEADER_TITLE_SIZE,
+    MUTED_COLOR,
+    PRIMARY_COLOR,
+    RED_CH,
+    SECONDARY_COLOR,
+    SECTION_TITLE_SIZE,
+    SMALL_SIZE,
+    SUBTITLE_SIZE,
+    SUCCESS_COLOR,
+    TEXT_COLOR,
+)
+
+__all__ = [
+    "ACCENT_COLOR",
+    "BG_COLOR",
+    "BLUE_CH",
+    "BODY_SIZE",
+    "CARD_BG",
+    "DANGER_COLOR",
+    "GREEN_CH",
+    "HEADER_TITLE_SIZE",
+    "MUTED_COLOR",
+    "PRIMARY_COLOR",
+    "RED_CH",
+    "SECONDARY_COLOR",
+    "SECTION_TITLE_SIZE",
+    "SMALL_SIZE",
+    "SUBTITLE_SIZE",
+    "SUCCESS_COLOR",
+    "TEXT_COLOR",
+]
