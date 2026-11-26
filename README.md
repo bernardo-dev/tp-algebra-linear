@@ -16,7 +16,8 @@ Apresentação visual modular construída com **Manim Community Edition** ilustr
     │   ├── t01_vectors_matrices_tensors.py # 1. Vetores, Matrizes e Tensores
     │   ├── t02_linear_transformations.py   # 2. Transformações Lineares
     │   ├── t03_eigen_symmetric_corners.py  # 3. Autovalores, Autovetores e Matrizes Simétricas (Harris)
-    │   └── t04_thresholding.py             # 4. Thresholding (Limiarização)
+    │   ├── t04_thresholding.py             # 4. Thresholding (Limiarização)
+    │   └── t05_convolution_dot_product.py  # 5. Convolução e Produto Escalar (Blur, Nitidez, Contornos)
     └── main.py                             # Orquestrador da apresentação completa e cenas individuais
 ```
 
@@ -45,5 +46,6 @@ Renderizar tópicos individuais:
 .\.venv\Scripts\manim.exe -ql src/main.py LinearTransformationsScene
 .\.venv\Scripts\manim.exe -ql src/main.py EigenSymmetricCornersScene
 .\.venv\Scripts\manim.exe -ql src/main.py ThresholdingScene
+.\.venv\Scripts\manim.exe -ql src/main.py ConvolutionDotProductScene
 .\.venv\Scripts\manim.exe -ql src/main.py ConclusionScene
 ```

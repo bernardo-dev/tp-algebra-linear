@@ -16,12 +16,18 @@ from src.topics.t04_thresholding import (
     ThresholdingScene,
     build_thresholding,
 )
+from src.topics.t05_convolution_dot_product import (
+    ConvolutionDotProductScene,
+    build_convolution_dot_product,
+)
 
 __all__ = [
+    "ConvolutionDotProductScene",
     "EigenSymmetricCornersScene",
     "LinearTransformationsScene",
     "ThresholdingScene",
     "VectorsMatricesTensorsScene",
+    "build_convolution_dot_product",
     "build_eigen_symmetric_corners",
     "build_linear_transformations",
     "build_thresholding",

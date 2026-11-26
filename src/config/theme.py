@@ -7,6 +7,7 @@ SECONDARY_COLOR = "#F472B6"    # Rose Pink
 ACCENT_COLOR = "#FACC15"       # Amber Yellow
 SUCCESS_COLOR = "#4ADE80"      # Emerald Green
 DANGER_COLOR = "#F87171"       # Soft Red
+VIOLET_COLOR = "#A78BFA"       # Violet 400
 CARD_BG = "#1E293B"            # Slate 800
 BORDER_MUTED = "#334155"       # Slate 700
 TEXT_COLOR = "#F8FAFC"         # Slate 50

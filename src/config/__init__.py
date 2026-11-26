@@ -18,6 +18,7 @@ from src.config.theme import (
     SUBTITLE_SIZE,
     SUCCESS_COLOR,
     TEXT_COLOR,
+    VIOLET_COLOR,
 )
 
 __all__ = [
@@ -38,4 +39,5 @@ __all__ = [
     "SUBTITLE_SIZE",
     "SUCCESS_COLOR",
     "TEXT_COLOR",
+    "VIOLET_COLOR",
 ]
